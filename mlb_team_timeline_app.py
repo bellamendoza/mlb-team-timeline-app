@@ -21,7 +21,7 @@ TEAM_COLORS = {
     "ANA": "#BA0021", "LAD": "#005A9C", "FLA": "#00A3E0", "MIL": "#12284B",
     "MIN": "#002B5C", "NYM": "#002D72", "NYY": "#003087", "OAK": "#003831",
     "PHI": "#E81828", "PIT": "#FDB827", "SDP": "#2F241D", "SEA": "#0C2C56",
-    "SFG": "#FD5A1E", "STL": "#C41E3A", "TBR": "#092C5C", "TEX": "#003278",
+    "SFG": "#FD5A1E", "STL": "#C41E3A", "TBD": "#092C5C", "TEX": "#003278",
     "TOR": "#134A8E", "WSN": "#AB0003"
 }
 
@@ -53,7 +53,7 @@ OFFICIAL_TEAM_NAMES = {
     "Seattle Mariners": "SEA",
     "San Francisco Giants": "SFG",
     "St. Louis Cardinals": "STL",
-    "Tampa Bay Rays": "TBR",
+    "Tampa Bay Rays": "TBD",
     "Texas Rangers": "TEX",
     "Toronto Blue Jays": "TOR",
     "Washington Nationals": "WSN"
