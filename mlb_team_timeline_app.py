@@ -138,7 +138,7 @@ def plot_multiple_timelines_plotly(player_list, people, batting, teams):
         barmode='stack',
         title="MLB Player Team Timelines",
         xaxis_title="Year",
-        yaxis=dict(autorange="reversed"),s
+        yaxis=dict(autorange="reversed"),
         height=max(800, len(player_list) * 40),
         legend_title="Team",
         plot_bgcolor='white',
