@@ -151,7 +151,7 @@ def main():
     st.set_page_config(
     page_title="MLB Team Timeline",  # This changes the tab title
     page_icon="⚾️"                     # Optional: changes the favicon
-    )s
+    )
     st.title("MLB Active Players Team Timeline")
 
     people.columns = people.columns.str.lower()
