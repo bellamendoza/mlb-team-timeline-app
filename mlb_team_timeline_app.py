@@ -138,7 +138,7 @@ def plot_multiple_timelines_plotly(player_list, people, batting, teams):
         barmode='stack',
         title="MLB Player Team Timelines",
         xaxis_title="Year",
-        yaxis=dict(autorange="reversed"),
+        yaxis=dict(autorange="reversed"),s
         height=max(800, len(player_list) * 40),
         legend_title="Team",
         plot_bgcolor='white',
@@ -148,6 +148,10 @@ def plot_multiple_timelines_plotly(player_list, people, batting, teams):
     st.plotly_chart(fig, use_container_width=True)
 
 def main():
+    st.set_page_config(
+    page_title="MLB Team Timeline",  # This changes the tab title
+    page_icon="⚾️"                     # Optional: changes the favicon
+    )s
     st.title("MLB Active Players Team Timeline")
 
     people.columns = people.columns.str.lower()
